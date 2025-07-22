@@ -21,7 +21,7 @@
 
 ## Architecture
 
-![System Diagram](assets/diagram.png)
+![System Diagram](assets/diagram.svg)
 
 ---
 
