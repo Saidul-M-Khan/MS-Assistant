@@ -21,19 +21,7 @@
 
 ## Architecture
 
-```mermaid
-flowchart TD
-    A[User] -->|Uploads PDF/TXT| B[FastAPI Backend]
-    B --> C[Document Processing]
-    C --> D[Text Chunking & Embedding]
-    D --> E[ChromaDB (Vector DB)]
-    D --> F[SQL Database (Metadata)]
-    A -->|Asks Question| B
-    B -->|Query Embedding| E
-    E -->|Relevant Chunks| B
-    B -->|Context + Chat| G[OpenAI GPT]
-    G -->|Response| A
-```
+![System Diagram](assets/diagram.png)
 
 ---
 
