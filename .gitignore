@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+ENV/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test/Type cache
+.pytest_cache/
+.mypy_cache/
+
+# Environment/config
+.env
+.env.*
+
+# Database
+*.sqlite
+*.db
+
+# Uploads and generated data
+uploads/
+chroma_db/
+
+# Logs
+*.log
+
+# Reference code (if not to be tracked)
+reference_code/__pycache__/
+
+# Misc
+*.bak
+*.swp
+*~ 
